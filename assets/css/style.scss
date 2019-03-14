@@ -1,0 +1,44 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+body {
+}
+
+@font-face {
+    font-family: 'DirtyBandit';
+    src: url('../fonts/DirtyBandit.ttf') format('truetype');
+}
+
+.page-header {
+
+    .project-name {
+        font-family: 'DirtyBandit';
+        font-size: 8rem;
+        line-height: 0.7;
+        transform: rotate(-6deg);
+        padding-bottom: 1rem;
+
+        @include large {
+            padding-bottom: 2rem;
+        }
+
+        @include medium {
+            font-size: 5rem;
+        }    
+
+        @include small {
+            font-size: 3rem;
+        }
+    }
+
+    background-color: #58892a;
+    background-image: none;
+}
+
+.main-content {
+    h1 {
+        color: white;
+    }
+}

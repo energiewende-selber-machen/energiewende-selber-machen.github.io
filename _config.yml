@@ -1,1 +1,7 @@
+lang: de-DE
+title: Energiewende selber machen!
+description: > 
+  Kein Mensch muss für Kohle- und Atomstrom zahlen. 
+  Ökostrom zu bestellen dauert nur 5 Minuten, und es kann sogar noch Geld sparen!
 theme: jekyll-theme-cayman
+markdown: kramdown
