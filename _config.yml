@@ -1,7 +1,8 @@
 lang: de-DE
 title: Energiewende selber machen!
-description: |
-  Nie mehr für Kohle- und Atomstrom zahlen!
+description: 
+  Nie mehr für Kohle- und Atomstrom zahlen!  
+description2:
   Der Wechsel zu nachhaltigem Ökostrom dauert nur 5 Minuten, und kann sogar noch Geld sparen.
 theme: jekyll-theme-cayman
 markdown: kramdown

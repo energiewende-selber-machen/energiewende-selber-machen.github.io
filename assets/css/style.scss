@@ -8,17 +8,58 @@
     src: url('../fonts/DirtyBandit.ttf') format('truetype');
 }
 
+.show-small {
+    display: none;
+}
+
+@include small {
+    .hide-small {
+        display: none;
+    }
+
+    .show-small {
+        display: block;
+    }
+}
+
 .page-header {
     padding: 3rem 4rem;
     background-color: #58892a;
     background-image: none;
+    position: relative;
+
+    @include small {
+        min-height: 200px;
+    }
+
+    &::before {
+        content: url(../images/wind-energy.svg);
+        position: absolute;
+        left: -280px;
+        bottom: -190px;
+        transform: scale(0.46);
+
+        @include medium {
+            left: -300px;
+            bottom: -208px;
+            transform: scale(0.4);            
+        }
+
+        @include small {
+            transform: scale(0.28);
+            left: -374px;
+            bottom: -250px;
+        }
+    }
 
     .project-name {
         font-family: 'DirtyBandit';
-        font-size: 8rem;
+        font-size: 7rem;
         line-height: 0.7;
         transform: rotate(-6deg);
         padding-bottom: 1rem;
+        text-shadow: rgba(0,0,0,0.8) -2px 2px 4px;
+        white-space: nowrap;
 
         @include large {
             padding-bottom: 2rem;
@@ -26,15 +67,25 @@
 
         @include medium {
             font-size: 5rem;
+            padding-left: 6rem;
         }    
 
         @include small {
             font-size: 3rem;
+            padding-left: 4rem;
         }
     }
 
     .project-tagline {
-        margin-bottom: 0;
+        margin: 1rem 8rem -1rem 8rem;
+
+        @include medium {
+            margin: 1.5rem 0 -1.5rem 6rem;
+        }
+
+        @include small {
+            margin: 1rem 0 -2rem 4rem;
+        }
     }
 }
 
