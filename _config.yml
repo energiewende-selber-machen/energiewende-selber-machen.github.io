@@ -1,9 +1,10 @@
 lang: de-DE
 title: Energiewende selber machen!
-description: 
-  Nie mehr für Kohle- und Atomstrom zahlen!  
-description2:
-  Der Wechsel zu nachhaltigem Ökostrom dauert nur 5 Minuten, und kann sogar noch Geld sparen.
+description: >
+ Kohleausstieg erst 2038?! Das geht schneller - Stromanbieterwechsel ist leicht.
+ Jetzt zu unabhängigen Ökostromanbieter wechseln und dem Kohleausstieg Beine machen!
 theme: jekyll-theme-cayman
 markdown: kramdown
-
+tagline: Nie mehr für Kohle- und Atomstrom zahlen!
+tagline2: Der Wechsel zu nachhaltigem Ökostrom dauert nur fünf Minuten und kann sogar noch Geld sparen.
+url: energiewendeselbermachen.de
